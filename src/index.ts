@@ -87,12 +87,6 @@ client.on('interactionCreate', async interaction => {
 
     if (!command) return;
 
-    // if(interaction.user.id === "592778527900827658"){
-    //     await interaction.reply("1+1=");
-    //     return;
-    // }
-
-    console.log(interaction)
     try {
         await command.execute(interaction);
     } catch (error) {
