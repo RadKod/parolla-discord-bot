@@ -10,7 +10,8 @@ import info from "./commands/info.js";
 import {getQuestions} from "./services/questions.js";
 import turkishToEnglish from "./utils/turkishToEnglish.js";
 
-require('dotenv').config();
+import dotenv from "dotenv";
+dotenv.config();
 
 const DISCORD_SECRET = process.env.DISCORD_SECRET;
 const CLIENT_ID = process.env.CLIENT_ID;
