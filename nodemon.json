@@ -1,0 +1,5 @@
+{
+  "signal": "SIGTERM",
+  "exec": "ts-node --esm ./src/index.ts start",
+  "ext": "ts"
+}
